@@ -34,6 +34,32 @@
 
 <!-- >> /CSS
 ============================================================================== -->
+	
+
+<script type='text/javascript'>
+//<![CDATA[
+//Script Redirect CTRL + U
+function redirectCU(e) {
+  if (e.ctrlKey && e.which == 85) {
+    window.location.replace("http://jun-alfajr.github.io");
+    return false;
+  }
+}
+document.onkeydown = redirectCU;
+
+//Script Redirect Klik Kanan
+function redirectKK(e) {
+  if (e.which == 3) {
+    window.location.replace("http://jun-alfajr.github.io");
+    return false;
+  }
+}
+document.oncontextmenu = redirectKK;
+//]]>
+</script>
+
+	
+	
 </head>
 <body>
 <!-- Page Loader
